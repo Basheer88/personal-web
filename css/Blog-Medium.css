@@ -1,0 +1,84 @@
+body {
+  background: url(../img/body.jpg) repeat;
+  margin: 20px 4px 20px 4px;
+}
+
+p {
+  text-align: justify;
+  color: #869093;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.containerup {
+ padding: 0 30px;
+ background: #fff;
+ border-radius: 5px 5px 0 0;
+ margin: 10px 30px 0 30px;
+}
+
+.author {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.author h1 {
+  font-size: 26px;
+  color: #6f7678;
+  line-height: 40px;
+  margin: 0; 
+}
+
+.author h5 {
+  font-size: 14px;
+  margin: 0; 
+}
+
+.title{
+ background: #f7f7f7;
+ border-top: 3px solid #2bbbdf;
+ display: inline-block;
+ text-align: center;
+ margin: -35px 30% 0px 30%;
+ width: 40%;
+}
+
+.title-heading {
+  color: #6f7678;
+}
+
+.title-heading h1 {
+  font-size: 16px;
+}
+
+.containerdown {
+  padding: 0 30px;
+  background: #2bbbdf;
+  border: 2px solid #2bbbdf;
+  border-radius: 5px;
+
+}
+
+.copy-rights{
+  padding: 35px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.text {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; 
+}
