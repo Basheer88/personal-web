@@ -123,7 +123,7 @@
             var post_data = {'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
            
             // Ajax post data to server
-            $.post('./assets/php/contact-me.php', post_data, function(response){  
+            $.post('./php/contact-me.php', post_data, function(response){  
                
                 // Load json data from server and output message    
                 if(response.type == 'error') {
