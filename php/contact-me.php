@@ -43,7 +43,7 @@ if($_POST) {
     // Proceed with PHP email
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type:text/html;charset=UTF-8' . "\r\n";
-    $headers .= 'From: My website' . "\r\n";
+    $headers .= 'From: Basheer<info@basheer88.com>' . "\r\n";
     $headers .= 'Reply-To: '.$_POST["userEmail"]."\r\n";
     
     'X-Mailer: PHP/' . phpversion();
@@ -54,7 +54,7 @@ if($_POST) {
                 '<strong>Feel free to contact '.$_POST["userName"].' via email at : '.$_POST["userEmail"].'</strong>' . "\r\n" ;
 
     // You can customize this email subject to whatever you want.            
-    $emailSubject = 'New Message';            
+    $emailSubject = 'My Website Contact Email';            
     
     $Mailsending = @mail($to_Email, $emailSubject, $emailcontent, $headers);
    
